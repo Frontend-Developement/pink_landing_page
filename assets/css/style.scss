@@ -1,4 +1,5 @@
 $main-color: #b37399;
+$bgcolor: #0b0b0b7e;
 $font: #FFF;
 
 body
@@ -10,9 +11,9 @@ body
 
 .navbar {
 
-    background-color: #0b0b0b7e;
+    background-color: $bgcolor;
     padding: 2em;
-    outline: 10px solid #0b0b0b7e;
+    outline: 10px solid $bgcolor;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,6 +46,31 @@ body
     margin-top: 5em;
 }
 
+.heroBanner {
+    display: flex;
+    background-color: $bgcolor;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    padding: 8em;
+    outline: 10px solid $bgcolor;
+
+    .heroBannerImage {
+        height: 100px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    h1 {
+        color: $main-color;
+    }
+
+    h4 {
+        margin-top: -10px;
+        margin-bottom: 0px;
+        color: $main-color;
+    }
+}
+
 footer {
     position: relative;
     bottom: 0px;
@@ -52,9 +78,9 @@ footer {
 
 .footer {
 
-    background-color: #0b0b0b7e;
+    background-color: $bgcolor;
     padding: 2em;
-    outline: 10px solid #0b0b0b7e;
+    outline: 10px solid $bgcolor;
     display: flex;
     justify-content: space-around;
 

@@ -37,6 +37,28 @@ body {
   margin-top: 5em;
 }
 
+.heroBanner {
+  display: flex;
+  background-color: rgba(11, 11, 11, 0.4941176471);
+  margin-bottom: 5em;
+  margin-top: 5em;
+  padding: 8em;
+  outline: 10px solid rgba(11, 11, 11, 0.4941176471);
+}
+.heroBanner .heroBannerImage {
+  height: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.heroBanner h1 {
+  color: #b37399;
+}
+.heroBanner h4 {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  color: #b37399;
+}
+
 footer {
   position: relative;
   bottom: 0px;
